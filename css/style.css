@@ -1,5 +1,4 @@
 body {
-  /* color: red; */
   background: rgb(228, 223, 223);
   margin: 0;
   font-size: 100%
@@ -17,16 +16,20 @@ body {
   border: 3px inset blue
 }
 
+.dk {
+  font-size: .8em;
+}
+
 .one {
   width: 50%;
-  background-color: red;
+  background-image: linear-gradient(to right, white, pink);
   margin: 5px;
   padding: 20px;
   outline-style: solid;
   outline-color: purple;
   border: 3px inset #0000ff;
   display: none;
-  position: static;
+  position: relative;
   top: 30px;
   right: 10px;
 }
@@ -40,11 +43,13 @@ body {
   background-color: orange;
   height:100px;
   overflow: scroll;
+  margin: auto;
+  text-align: center;
 }
 
 .three {
   position: absolute;
-  top: 30px;
+  top: 120px;
   right: 0
 }
 
@@ -54,6 +59,54 @@ body {
   left: 0
 }
 
-.dk {
-  font-size: .8em;
+.five {
+  display: inline-block;
+  height: 100px;
+  width: 60px;
+  background-color:pink;
+  box-shadow: 0px 4px 5px rgb(12, 11, 11);
+}
+
+.six {
+  display: inline-block;
+  height: 60px;
+  background-color: yellow;
+  width: 100px;
+}
+
+.six:hover{
+  opacity: 0.5;
+}
+
+.seven {
+  background: rgb(104, 102, 102);
+  color: white;
+  margin: 10px 0
+}
+
+.seven a:hover {
+  background: blue;
+}
+
+.link{
+  background-color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: orange;
+}
+
+.ink:active {
+  color: blue;
+}
+
+.input {
+  width:50px;
+}
+
+.input[type=text]:focus {
+  background-color: paleturquoise;
+  transition: width 0.3s ease-in-out;
+  width: 50%;
 }
