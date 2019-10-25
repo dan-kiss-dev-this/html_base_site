@@ -26,6 +26,9 @@ body {
   outline-color: purple;
   border: 3px inset #0000ff;
   display: none;
+  position: static;
+  top: 30px;
+  right: 10px;
 }
 
 .isVisible {
@@ -35,6 +38,20 @@ body {
 .two {
   width: 50%;
   background-color: orange;
+  height:100px;
+  overflow: scroll;
+}
+
+.three {
+  position: absolute;
+  top: 30px;
+  right: 0
+}
+
+.four {
+  position: absolute;
+  top: 0;
+  left: 0
 }
 
 .dk {
