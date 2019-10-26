@@ -111,6 +111,11 @@ body {
   width: 50%;
 }
 
+.preflexbox {
+  height: 50px;
+  background-color: rgb(165, 90, 235);
+}
+
 .flexbox {
   display: flex;
   flex-wrap: wrap;
